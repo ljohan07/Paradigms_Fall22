@@ -1,0 +1,19 @@
+let firstName = "";
+let lastName = "";
+let nickName = "JCSS";
+console.log( firstName || lastName || nickName || "Anonymous");
+console.log( firstName || lastName || nickName && "Anonymous");
+
+The or operand finds the first "truthy" value from left to right and
+converts each operand to boolean. if the result if true, it stops and returns 
+the original value of that operand. In the case of 
+firstName || lastName || nickName || "Anonymous", we are looking for the 
+first non-empty string (empty string evaluates to false), which is nickName.
+It thus returns the original value of nickName, which is "JCSS".
+
+The and operand finds the first "falsy" value, but if all were evaluated to true, 
+it returns the last operand. In the case of "firstName || lastName || nickName && "Anonymous",
+&& has precedence over ||, so nickName && "Anonymous" is evaluated first. So now the rest of 
+the operation looks like "firstName || lastName || "Anonymous". Since firstName and lastName 
+are evaluated to false (empty strings), the or operand will return Anonymous because it's
+the original value of the first element that evaluated to true.
