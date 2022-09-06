@@ -41,6 +41,8 @@ function reversedSum(num1, num2) {
     return reverse_sum;
 }
 
-console.log(reversedSum("24", 1));
-console.log(reversedSum(4358, "754"));
-console.log(reversedSum(305, 794));
+// console.log(reversedSum("24", 1));
+// console.log(reversedSum(4358, "754"));
+// console.log(reversedSum(305, 794));
+// console.log(reversedSum(928494, 999999));
+// console.log(reversedSum(928494, 1000000));
