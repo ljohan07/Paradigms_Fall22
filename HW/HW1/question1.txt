@@ -1,0 +1,6 @@
+The reason why comparison(-1) prints "undefined" has to do
+largely with the fact that the else block uses let instead of
+var. When you use let, it can only be used within a block scope,
+so let result = "Negative" only exists as such within that 
+else block. Outside, it does not exist, thus console.log(comparison(-1))
+prints "undefined."
