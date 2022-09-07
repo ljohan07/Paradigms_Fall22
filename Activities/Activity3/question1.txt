@@ -1,0 +1,8 @@
+In 0 == "0", Javascript coerces the type conversion from "0" to 0.
+Thus, this statement evaluates to true. Similarly, in the second statement,
+Javascript tries to force the type conversion and succeeds. For an array,
+the ToPrimitive function is called, which returns 0 for an empty array
+when comparing it to an int value. Thus, the second statement returns true.
+For the last statement, since we are comparing an empty array to a string, 
+the ToPrimitive function does not execute as we had hoped, so the
+comparison returns false.

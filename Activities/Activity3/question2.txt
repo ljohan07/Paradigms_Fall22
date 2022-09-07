@@ -1,0 +1,7 @@
+When the child object is created, we set name to 'Stacey', age to 35, and heritage to 'Irish'.
+However, after that, we set the child's name to "Ryan" and the age to 35. The heritage persists
+as is. Thus, Line 5 prints "Ryan" since we set the name to be that. Line 6 prints "Irish"
+because our initial declaration persists. Line 7 prints undefined since height does not 
+exist (was not ever declared).
+
+
