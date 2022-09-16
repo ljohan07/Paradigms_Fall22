@@ -1,0 +1,5 @@
+a high order function either takes in a function as a parameter or returns a function
+
+greterThan(n) is a higher-order function because it returns an arrow function
+
+matchesCriteria(n, callback) is a higher-order function because it returns another function
