@@ -1,0 +1,3 @@
+compiling translates source code to assembly language. transpiling translates from one source code to another
+coffeescript transpiles to javascript bc it was written to be an "easier" version of javascript
+coffeescript has the ability to translate into javascript built in thus it transpiles to JS
