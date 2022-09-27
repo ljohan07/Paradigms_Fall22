@@ -1,0 +1,29 @@
+Test Case 1:
+---
+
+- Input: 35
+- Output: false
+
+Test Case 2:
+---
+
+- Input: 2661662
+- Output: false
+
+Test Case 3:
+---
+
+- Input: 920041
+- Output: false
+
+Test Case 4:
+---
+
+- Input: 5552555
+- Output: false
+
+Test Case 5:
+---
+
+- Input: 552555
+- Output: true

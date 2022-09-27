@@ -1,0 +1,4 @@
+The problem is that the function does not check the last element of the array.
+Found the problem by looking at the for loop and the last if condition
+
+I would add another if condition to check the last element outside the for loop
