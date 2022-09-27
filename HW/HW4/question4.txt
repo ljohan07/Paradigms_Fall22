@@ -1,0 +1,3 @@
+A comprehension is an expression that produces an array
+example: arr = (x*x for x in [0..10])
+example produces an array of the squares of the values between 0 and 10 inclusive
