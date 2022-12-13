@@ -1,0 +1,7 @@
+we put the css link in the header so that it is rendered the first time with the rest of the website
+if we put the css link in the body, the website will render the elements that come before the link
+and then re render once it comes across the css link
+
+we put the js script right before the end of the body so that all the elements of the body in html have been rendered
+this way, once we execute the js scripts, we have all the pieces that would potentially be used in the js script
+otherwise, we will have elements that show up as null because they have not yet been rendered.

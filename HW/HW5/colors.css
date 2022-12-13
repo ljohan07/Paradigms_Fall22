@@ -1,0 +1,17 @@
+body {
+    background-color: #efc6ff;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+#anime_table {
+    color: #d570fc;
+    background-color: #a1f7ff;
+    border: 5px solid red;
+    text-align: center;
+}
+.moreInfo {
+    color: #d570fc;
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
