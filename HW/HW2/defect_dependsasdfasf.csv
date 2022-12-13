@@ -1,0 +1,6 @@
+from_defect_id,to_defect_id
+1,2
+2,1
+3,4
+4,5
+4,8
