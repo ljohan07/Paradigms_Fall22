@@ -1,0 +1,7 @@
+The thin arrow function -> hijacks the value of 'this' to
+the value of the calling context. In the call to innerFn, 
+this matters. Since it accesses values not passed into it, 
+in print2, the value of 'this' is undefined ('this' is given
+the calling context, undefined). Therefore,
+innerFn in print2 cannot access this.x nor can it 
+access this.y.
