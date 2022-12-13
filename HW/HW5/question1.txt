@@ -1,0 +1,8 @@
+defer tells us that the script is meant to be executed after the document has been parsed. the browser will process the HTML, 
+load the script in the background, and then runs the script once everything is built
+async tells us that the script is separate. it is different for the following reasons: the browser doesn't block the script (the way defer does),
+async scripts don't wait for other things and vice versa
+
+
+
+

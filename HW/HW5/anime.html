@@ -1,0 +1,29 @@
+<!doctype HTML>
+<html>
+    <head>
+        Anime :)
+        <link rel="stylesheet" href="colors.css">
+    </head>
+    <body>
+        <button class="btn" onclick="goBack()">Back</button>
+        <h1>These are some of my favorite shows :)</h1>
+        <table id="anime_table">
+            <tr>
+                <th>Spy x Family</th>
+                <th><img src="./spyfam.jpg" height="200px" /></th>
+                <th id="spyfam"><button class="moreInfo" onclick="expand(1)">Read More</button></th>
+            </tr>
+            <tr>
+                <th>Kaguya-Sama: Love is War</th>
+                <th><img src="./kaguya.jpg" height="200px" /></th>
+                <th id="kaguya"><button class="moreInfo" onclick="expand(2)">Read More</button></th>
+            </tr>
+            <tr>
+                <th>Demon Slayer</th>
+                <th><img src="./demonslayer.jpg" height="200px" /></th>
+                <th id="demonslayer"><button class="moreInfo" onclick="expand(3)">Read More</button></th>
+            </tr>
+        </table>
+        <script type="text/javascript" src="anime.js"></script>
+    </body>
+</html>

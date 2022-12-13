@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h1 {
+        background-color: red;
+        font-weight: bold;
+      }   
+    </style>
+    <script type="text/javascript">
+      function authenticate () {
+        let user = document.getElementById("username").value
+        let pass = document.getElementById("password").value
+        console.log(user, pass)
+        var message = ''
+        if (user == "CSE30332" && pass == "paradigms") {
+            message = 'Authenticated!'
+        }
+        else {
+            message = 'Authentication Error!'
+        }
+        var span_to_change = document.getElementById("auth_result");
+        span_to_change.innerText = message;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Sample question</h1>
+    <div class="row">
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" />
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+        <input type="radio" name="gender" value="male" />Male<br />
+        <input type="radio" name="gender" value="female" />Female<br />
+        <input type="radio" name="gender" value="other" />Other
+        <input list="Options" />
+        <datalist id="Options">
+          <option value="Option1"></option>
+          <option value="Option2"></option>
+          <option value="Option3"></option>
+        </datalist>        
+      </form>
+      <button onclick="authenticate()">Authenticate</button>
+      <span id="auth_result"></span>
+    </div>
+  </body>
+</html>
